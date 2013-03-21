@@ -1,0 +1,79 @@
+/*
+Theme Name: Twentytwelve sarahbrendel 
+Description: Child theme for the twentytwelve theme 
+Author: xsteadfastx
+Template: twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+
+img.header-image {
+   border-radius:0;
+   box-shadow:0 0 0 rgba(0,0,0,0);
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+   border-bottom: 1px solid #AAAAAA;
+   border-top: 1px solid #AAAAAA;
+   display: inline-block !important;
+   text-align: center;
+   width: 100%;
+}
+
+body {
+    background-color: #A8CACA;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1rem;
+    text-rendering: optimizelegibility;
+}
+
+.site {
+    background-color: #F9F6D7;
+    padding: 0 1.71429rem;
+}
+
+.main-navigation li a {
+    border-bottom: 0 none;
+    color: #b22222;
+    line-height: 3.69231;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
+    color: #b22222;
+    font-weight: bold;
+}
+
+a {
+    color: #222222;
+    outline: medium none;
+}
+
+.comments-link a, .entry-meta a {
+    color: #745029;
+}
+.comments-link a:hover, .entry-meta a:hover {
+    color: #745029;
+}
+
+.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+    color: #636363;
+    font-size: 1.35rem;
+    font-weight: bold;
+    line-height: 2.18182;
+    text-transform: uppercase;
+}
+
+.entry-header .entry-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.main-navigation li {
+    font-size: 1rem;
+    line-height: 1.42857;
+    margin-top: 1.71429rem;
+}
