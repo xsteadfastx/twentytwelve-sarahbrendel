@@ -52,6 +52,10 @@ a {
     outline: medium none;
 }
 
+a:hover {
+    color: #000000;
+}
+
 .comments-link a, .entry-meta a {
     color: #745029;
 }
