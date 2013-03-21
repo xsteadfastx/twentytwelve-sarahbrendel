@@ -6,7 +6,7 @@ Template: twentytwelve
 */
 
 @import url("../twentytwelve/style.css");
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700);
 
 img.header-image {
    border-radius:0;
@@ -15,7 +15,7 @@ img.header-image {
 
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
    border-bottom: 1px solid #AAAAAA;
-   border-top: 1px solid #AAAAAA;
+   border-top: 0px solid #AAAAAA;
    display: inline-block !important;
    text-align: center;
    width: 100%;
@@ -23,7 +23,7 @@ img.header-image {
 
 body {
     background-color: #A8CACA;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     text-rendering: optimizelegibility;
 }
@@ -39,7 +39,6 @@ body {
     line-height: 3.69231;
     text-transform: uppercase;
     white-space: nowrap;
-    font-weight: bold;
 }
 
 .main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a {
@@ -68,12 +67,20 @@ a {
 }
 
 .entry-header .entry-title {
-    font-size: 2.2rem;
+    font-size: 1.8em;
     font-weight: bold;
 }
 
 .main-navigation li {
-    font-size: 1rem;
+    font-size: 1em;
     line-height: 1.42857;
     margin-top: 1.71429rem;
+}
+
+.site-content article {
+    -moz-hyphens: auto;
+    border-bottom: 4px double #AAAAAA;
+    margin-bottom: 5.14286rem;
+    padding-bottom: 1.71429rem;
+    word-wrap: break-word;
 }
