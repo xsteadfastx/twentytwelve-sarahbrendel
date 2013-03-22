@@ -102,3 +102,9 @@ a:hover {
     border-radius: 3px 3px 3px 3px;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
 }
+
+.widget-area {
+	margin: 24px 0 0;
+	margin: 1.714285714rem 0 0;
+	text-align: center;
+}
