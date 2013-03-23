@@ -22,7 +22,7 @@ img.header-image {
 }
 
 body {
-    background-color: #A8CACA;
+    background-color: #291400;
     font-family: 'Arvo', serif;
     font-size: 1rem;
     text-rendering: optimizelegibility;
@@ -33,7 +33,7 @@ body.custom-font-enabled {
 }
 
 .site {
-    background-color: #F9F6D7;
+    background-color: #f7f3ce;
     padding: 0 1.71429rem;
 }
 
