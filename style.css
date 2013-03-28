@@ -108,3 +108,13 @@ a:hover {
 	margin: 1.714285714rem 0 0;
 	text-align: center;
 }
+
+article.sticky .featured-post {
+    border-bottom: 4px double #AAAAAA;
+    border-top: 4px double #AAAAAA;
+    color: #757575;
+    font-size: 0.928571rem;
+    line-height: 3.69231;
+    margin-bottom: 1.71429rem;
+    text-align: center;
+}
