@@ -118,3 +118,11 @@ article.sticky .featured-post {
     margin-bottom: 1.71429rem;
     text-align: center;
 }
+
+.tribe-events-event-list-meta td {
+    vertical-align: top;
+    padding: 0 0 4px 0 !important;
+    text-align: left;
+    border: 0 !important;
+    background-color: #f7f3ce;
+}
